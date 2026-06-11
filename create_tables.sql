@@ -1,4 +1,7 @@
--- Students table
+CREATE DATABASE IF NOT EXISTS School_DB;
+USE School_DB;
+
+    -- Students table--
 CREATE TABLE students (
     student_id INT PRIMARY KEY,
     name VARCHAR(50) NOT NULL,
