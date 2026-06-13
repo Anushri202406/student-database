@@ -1,3 +1,5 @@
+USE School_DB;
+
 -- 1. Show all students
 SELECT * FROM students;
 
